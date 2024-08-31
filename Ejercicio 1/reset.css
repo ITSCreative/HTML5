@@ -13,13 +13,9 @@ q:before, q:after { content:''; }
 
 /*fin del reset css*/
 
-#foto3{
-    position: relative;
-    display: inline-block;
-}
 
 html{
-    background-color: white;}
+    background-color: red;}
 
 body{
     font-size: 62.5%;
