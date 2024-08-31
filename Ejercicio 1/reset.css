@@ -13,6 +13,14 @@ q:before, q:after { content:''; }
 
 /*fin del reset css*/
 
+#foto3{
+    position: relative;
+    display: inline-block;
+}
+
+html{
+    background-color: white;}
+
 body{
     font-size: 62.5%;
 }
@@ -27,34 +35,31 @@ h1{
     padding: 13px;
     color: #fff;
     box-shadow: #00f 5px 5px 10px;
-    text-shadow: #fff 1px 1px 3px;
 }
 
 h2{
-    font: bold 1.5em Verdana, sans-serif;
-    margin:0%;
+    font: bold 1.5em sans-serif;
+    margin-left:3%;
     padding: 5px 0 5px 0;
     color: #000;
 
 }
 
 section{
-    width: 91%;
+    width: 94%;
     border-top: 1.55px dashed #999;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 figure{
     float: left;
-    margin-top: 30px;
-
 
 }
 
 figure img{
     padding: 4px;
     background-color: #999;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: transform 0.05s ease-in-out 0.1s;
 }
 
@@ -65,8 +70,8 @@ figure img:hover{
 }
 
 figcaption{
-    font-family: arial;
-    font-size: 1.3em;
+    font-family: sans-serif;
+    font-size: 1em;
     text-align: center;
     margin-top: 5px;
 }
@@ -78,7 +83,6 @@ footer{
 
 footer p{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.6em;
-    margin: 10px 8px;
+    font-size: 1.3em;
+    margin: 20px 20px;
 }
-]
